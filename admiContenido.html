@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="font.css">
+    <title>Administrar Contenido</title>
+</head>
+<body>
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          
+          <div class="mt-2">
+            <h5 class="text-white h4">GO GREEN</h5>
+            <span class="text-muted">Universidad de Lima</span>
+          </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="mt-2">
+        <button class="btn btn-success" type="button">
+            <a href="/bienvenidoAdmi.html" target="_blank">ATRÁS</a>
+        </button>
+      </div>
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container text-center">
+              <h1 class="mt-4">ADMINISTRAR CONTENIDOS</h1>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <nav class="navbar bg-light">
+            <form class="container-fluid">
+              <div class="input-group">
+                <input type="text" class="form-control me-2" placeholder="Distrito" aria-label="Distrito">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </div>
+            </form>
+        </nav>
+
+        <div class="mt-4">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">
+                      <h2>EVENTOS PRESENCIALES Y VIRTUALES</h2>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>
+                        MIRAFLORES: WONG INICIA LA NAVIDAD CON EL ENCENDIDO DEL "ÁRBOL DE LA ILUSIÓN" ELABORADO CON MATERIAL RECICLADO
+                        <div class="mt-2">
+                          <img src="/images/wong.jpg" class="img-thumbnail" alt="..." width="500" height="500">
+                      </div>
+                        <p class="mt-4">Para mayor información ingresa <a href="https://larepublica.pe/nota-de-prensa/2021/11/23/wong-inicia-la-navidad-con-el-encendido-del-arbol-de-la-ilusion/" target="_blank">aquí</a></p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button class="btn btn-danger" type="button">ELIMINAR PUBLICACIÓN</button>
+                        </div>
+                        <div class="mt-2 d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button class="btn btn-warning" type="button">MODIFICAR PUBLICACIÓN</button>
+                        </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>
+                        "LOS PERICOS", "INNER CIRCLE" Y "YOTUEN" ENCABEZAN CARTELERA DE FESTIVAL MUSICAL ESTE SÁBADO
+                        <div>
+                          <img src="/images/pericos.jpg" class="img-thumbnail" alt="..." width="500" height="500">
+                      </div>
+                        <p class="mt-4">Para mayor información ingresa <a href="https://trome.pe/espectaculos/musica/conciertos-en-lima-los-pericos-inner-circle-y-yotuen-lideran-festival-musical-en-lurin-conoce-el-line-up-evento-musica-noticia/" target="_blank">aquí</a></p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button class="btn btn-danger me-md-2" type="button">ELIMINAR PUBLICACIÓN</button>
+                        </div>
+                        <div class="mt-2 d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button class="btn btn-warning me-md-2" type="button">MODIFICAR PUBLICACIÓN</button>
+                        </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>
+                        ECO-RETO 2022 PREMIARÁ US$ 10,000.00 A PROYECTO JUVENIL DE RECICLAJE PET
+                        <div>
+                          <img src="/images/eco-reto.jpg" class="img-thumbnail" alt="..." width="500" height="500">
+                      </div>
+                        <p class="mt-4">Para mayor información ingresa <a href="https://andina.pe/agencia/noticia-ecoreto-2022-premiara-10000-a-proyecto-juvenil-reciclaje-pet-866524.aspx" target="_blank">aquí</a></p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button class="btn btn-danger me-md-2" type="button">ELIMINAR PUBLICACIÓN</button>
+                        </div>
+                        <div class="mt-2 d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button class="btn btn-warning me-md-2" type="button">MODIFICAR PUBLICACIÓN</button>
+                        </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+</body>
+</html>
